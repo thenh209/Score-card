@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Bebas+Neue&family=Finlandica&family=League+Gothic&family=Patua+One&family=Permanent+Marker&family=Smooch&family=Stick+No+Bills:wght@200&family=Titan+One&family=Unna&display=swap');
+*{
+    margin: 10;
+    padding: 0;
+}
+body{
+   width: 100vw;
+   height: 100vh;  
+   text-align: center; 
+   background: url(./assets/background.webp);
+   background-repeat: no-repeat;
+   background-size: 100vw 100vh;
+}
+#heading1{
+    margin: 5vh auto;
+    background: linear-gradient(to left,rgb(255, 255, 9),orange,rgb(244, 3, 220));
+    -webkit-background-clip:text;
+    color:transparent;
+    font-family: 'Finlandica', sans-serif;
+}
+#heading2{
+    color:rgb(248, 191, 86);
+    font-family: 'Finlandica', sans-serif;
+}
+#line{
+    width: 40%;
+    height:0.5vh;
+    margin: 0 auto;
+    background-color: rgb(74, 147, 147);
+    background: linear-gradient(to left,rgb(255, 255, 9),orange,rgb(244, 3, 220));
+    color:transparent;
+}
+table {
+    font-family: 'Finlandica', sans-serif;
+    margin: 0 auto;
+    background:white;
+    width: 50vw;
+    height: fit-content;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+}
+table td {
+    border: 0.5px solid black;
+}
+table th{
+    border: 0.5px solid black;
+    color: white;
+    background-color: rgb(101, 60, 95);
+    font-weight: bold;
+}
+#span{
+    text-align:center;
+}
+#spanmame{
+
+   text-align: left;
+   padding-left: 10px;
+}
+span{
+    opacity: 45%;
+}
+#spanmameref{
+    text-decoration: none;
+    color:blue;
+}
+#scoreCard
+{
+ font-weight: 1000;
+}
+#imgtable{
+    display: flex;
+}
+#backgroundimg{
+    width: 100vw;
+    height: auto;
+}
+
